@@ -5,10 +5,12 @@ import java.util.Date;
 public class TransactionDetails {
 
 	private int id;
-	private int accountId;
 	private Date dataAndTime;
-	private String method;
 	private float amount;
+	private String method;
+	private int accountId;
+	private int branchId;
+	private int bankId;
 
 	public int getId() {
 		return id;

@@ -3,9 +3,9 @@ package lk.harshana.model;
 public class BankBranch {
 
 	private int id;
-	private int bankId;
 	private String address;
 	private String manager;
+	private int bankId;
 
 	public int getId() {
 		return id;

@@ -1,13 +1,24 @@
 package lk.harshana.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "customer")
 public class Customer {
 
+	@Id
 	private int id;
+	@Column(name = "name")
 	private String name;
+	@Column(name = "address")
 	private String address;
+	@Column(name = "username")
 	private String username;
+	@Column(name = "password")
 	private String password;
-	private int bankId;
 
 	public int getId() {
 		return id;
@@ -47,14 +58,6 @@ public class Customer {
 
 	public void setPassword(String password) {
 		this.password = password;
-	}
-
-	public int getBankId() {
-		return bankId;
-	}
-
-	public void setBankId(int bankId) {
-		this.bankId = bankId;
 	}
 
 }

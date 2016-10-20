@@ -3,9 +3,11 @@ package lk.harshana.model;
 public class Account {
 
 	private int id;
-	private int customerId;
 	private float amount;
-
+	private int branchId;	
+	private int bankId;
+	private int customerId;
+	
 	public int getCustomerId() {
 		return customerId;
 	}
