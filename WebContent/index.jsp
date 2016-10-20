@@ -7,6 +7,5 @@
 <title>kawsoft banking system</title>
 </head>
 <body>
-
 </body>
 </html>
